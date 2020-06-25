@@ -5,23 +5,14 @@ import javax.sql.rowset.serial.SQLOutputImpl;
 public class Myfirstprogram {
 
 	public static void main(String[] args){
-		hello("Alena");
-		hello("Alena");
-		hello("Alena");
-		double len=5;
-		System.out.println("Площадь квадрата со стороной " + len +" = "+ area (len));
-		double a=4;
-		double b=5;
-		System.out.println("Площадь прямоугольника со сторонами" + a + " и " + b + "=" + area (a, b));
+		Square s = new Square(5);
+		System.out.println("Площадь квадрата со стороной " + s.l +" = "+ s.area ());
+		Rectangle r= new Rectangle(4, 6);
+
+		System.out.println("Площадь прямоугольника со сторонами" + r.a + " и " + r.b + "=" + r.area ());
 }
+
 public static void hello(String soody) {
 	System.out.println("Hello," +soody+ "!");
-}
-public static double area (double v )
-{
-	return  v*v;
-}
-public static double area (double a,double b){
-		return  a*b;
 }
 }
