@@ -3,10 +3,11 @@ package ru.stqa.pft.run.point;
 import ru.stqa.pft.run.Rectangle;
 
 public class Point {
-  public static void main(String[] args) {
+  public static void main (String[] args) {
+    Pointi p1 = new Pointi(3, 3);
+    Pointi p2 = new Pointi(2,2.6);
 
-    Pointi p = new Pointi (1, 9, 5, 5);
-
-    System.out.println("Расстояние между двумя точками (x1;y1) и (x2;y2)" + "=" + p.distance());
+    System.out.println("Расстояние между двумя точками (p1) и (p2) " + "=" + p1.distance(p2));
   }
+
 }
