@@ -1,0 +1,10 @@
+ru/stqa/pft/run/point/Pointi.java
+ ru.stqa.pft.run.point.Pointi
+ru/stqa/pft/run/Rectangle.java
+ ru.stqa.pft.run.Rectangle
+ru/stqa/pft/run/point/Point.java
+ ru.stqa.pft.run.point.Point
+ru/stqa/pft/run/Square.java
+ ru.stqa.pft.run.Square
+ru/stqa/pft/run/Myfirstprogram.java
+ ru.stqa.pft.run.Myfirstprogram
