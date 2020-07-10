@@ -1,0 +1,4 @@
+ru/stqa/pft/run/SquareTets.java
+ ru.stqa.pft.run.SquareTets
+ru/stqa/pft/run/point/PointTests.java
+ ru.stqa.pft.run.point.PointTests

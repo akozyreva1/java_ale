@@ -1,6 +1,5 @@
 package ru.stqa.pft.run.point;
 
-import ru.stqa.pft.run.Rectangle;
 
 public class Point {
   public static void main (String[] args) {
