@@ -1,7 +1,5 @@
 package ru.stqa.pft.run;
 
-import javax.sql.rowset.serial.SQLOutputImpl;
-
 public class Myfirstprogram {
 
 	public static void main(String[] args){

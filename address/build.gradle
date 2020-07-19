@@ -1,0 +1,11 @@
+apply plugin:'java'
+repositories {
+    mavenCentral()
+}
+depepdencies {
+    implementation 'org.testng:testng:7.1.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-6'
+    implementation 'org.openqa.selenium:selenium-rc:1.0-20081010.060147'
+    implementation 'org.hibernate:hibernate-core:5.4.18.Final'
+    implementation 'org.openqa.selenium.grid:selenium-grid-remote-control:1.0.2'
+}

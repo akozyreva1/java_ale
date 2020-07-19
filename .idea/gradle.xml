@@ -12,13 +12,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/address" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="PLATFORM" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/run" />
         <option name="modules">
@@ -26,6 +27,7 @@
             <option value="$PROJECT_DIR$/run" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="false" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>

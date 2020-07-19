@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/address.iml" filepath="$PROJECT_DIR$/.idea/modules/address.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_ale.iml" filepath="$PROJECT_DIR$/.idea/modules/java_ale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/address/java_ale.address.iml" filepath="$PROJECT_DIR$/.idea/modules/address/java_ale.address.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/address/java_ale.address.main.iml" filepath="$PROJECT_DIR$/.idea/modules/address/java_ale.address.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/address/java_ale.address.test.iml" filepath="$PROJECT_DIR$/.idea/modules/address/java_ale.address.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/run.iml" filepath="$PROJECT_DIR$/.idea/modules/run.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/run.main.iml" filepath="$PROJECT_DIR$/.idea/modules/run.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/run.test.iml" filepath="$PROJECT_DIR$/.idea/modules/run.test.iml" />
+    </modules>
+  </component>
+</project>
