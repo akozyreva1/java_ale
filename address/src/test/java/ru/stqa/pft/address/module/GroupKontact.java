@@ -1,4 +1,4 @@
-package ru.stqa.pft.address;
+package ru.stqa.pft.address.module;
 
 public class GroupKontact {
     private final String firstnam;
@@ -8,7 +8,7 @@ public class GroupKontact {
     private final String telef;
     private final String mail;
 
-    public GroupKontact(String middlenam, String firstnam, String lastnam, String addres, String telef, String mail) {
+    public GroupKontact(String firstnam, String middlenam, String lastnam,String addres, String telef, String mail) {
         this.firstnam = firstnam;
         this.middlenam = middlenam;
         this.lastnam = lastnam;

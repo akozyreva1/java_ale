@@ -1,4 +1,4 @@
-package ru.stqa.pft.address;
+package ru.stqa.pft.address.module;
 
 public class Groupdata {
     private final String name;
