@@ -9,7 +9,7 @@ public class ContactTescCreation extends TestCasew {
   public void testKontactTestCase () throws Exception {
     app.getContactHelper().addcontact();
     app.getContactHelper().InputContact(new GroupKontact( "bibiobioo", "biobio", "bio", "tbio","24234342","bio@mail.ru" ));
-
+    app.getGroupHelper().submintGroupCreation();
 
   }
 }

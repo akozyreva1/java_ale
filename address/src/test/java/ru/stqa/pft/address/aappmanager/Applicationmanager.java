@@ -7,13 +7,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class Applicationmanager {
+public class Applicationmanager{
     FirefoxDriver wd;
     private SessionManager sessionManager;
     private NavigationHelper navigationHelper;
     private GroupHelper groupHelper;
     private ContactHelper contactHelper;
-
+    private KontatEdit kontatEdit;
     public void init() {
        wd = new FirefoxDriver();
        wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -21,6 +21,7 @@ public class Applicationmanager {
         navigationHelper = new NavigationHelper(wd);
         groupHelper = new GroupHelper(wd);
         contactHelper = new ContactHelper(wd);
+        kontatEdit = new KontatEdit(wd);
         sessionManager = new SessionManager(wd);
         sessionManager.Login("admin", "secret");
 
@@ -59,5 +60,9 @@ public class Applicationmanager {
 
     public ContactHelper getContactHelper() {
         return contactHelper;
+    }
+
+    public KontatEdit getKontatEdit() {
+        return kontatEdit;
     }
 }
