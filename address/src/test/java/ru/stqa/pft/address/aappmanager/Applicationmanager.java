@@ -21,9 +21,9 @@ public class Applicationmanager{
         navigationHelper = new NavigationHelper(wd);
         groupHelper = new GroupHelper(wd);
         contactHelper = new ContactHelper(wd);
-        kontatEdit = new KontatEdit(wd);
         sessionManager = new SessionManager(wd);
-        sessionManager.Login("admin", "secret");
+        kontatEdit = new KontatEdit(wd);
+              sessionManager.Login("admin", "secret");
 
     }
 
@@ -64,5 +64,10 @@ public class Applicationmanager{
 
     public KontatEdit getKontatEdit() {
         return kontatEdit;
+    }
+
+
+    private void CloseWind() {
+        wd.switchTo().alert().accept();
     }
 }

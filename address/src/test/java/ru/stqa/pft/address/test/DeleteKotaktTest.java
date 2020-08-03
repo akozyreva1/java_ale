@@ -1,20 +1,18 @@
 package ru.stqa.pft.address.test;
 
-
 import org.testng.annotations.Test;
 
 public class DeleteKotaktTest extends TestCasew {
     @Test
 
-    public void DeleteKotaktTest ()
-    {
+    public void DeleteKotaktTest () {
+
         app.getGroupHelper().selectgroup();
-        app.getGroupHelper().submintGroupModification();
-        app.getGroupHelper().selectgrouptdelete();
-        CloseWind();
+        app.getKontatEdit().KlikKontakt();
+        app.getKontatEdit().selectkontaktdelete();
+
+
     }
 
-    private void CloseWind() {
-        wd.switchTo().alert().accept();
-    }
+
 }

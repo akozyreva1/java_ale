@@ -6,6 +6,7 @@ public class EditContaktTest extends TestCasew {
     @Test
     public void EditContaktTest()
     {
+        app.getKontatEdit().KlikKontakt();
         app.getKontatEdit().EditKontakt();
         app.getKontatEdit().Update();
         app.getKontatEdit().KnopkaHome();
