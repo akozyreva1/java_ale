@@ -1,12 +1,12 @@
 package ru.stqa.pft.address.aappmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebDriver;
 
 public class SessionManager {
-    private FirefoxDriver wd;
+    private WebDriver wd;;
 
-    public SessionManager(FirefoxDriver wd) {
+    public SessionManager(WebDriver wd) {
 
         this.wd = wd;
     }

@@ -1,14 +1,14 @@
 package ru.stqa.pft.address.aappmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebDriver;
 import ru.stqa.pft.address.module.Groupdata;
 
 public class GroupHelper {
 
-    private FirefoxDriver wd;
-    public GroupHelper (FirefoxDriver wd){
-        this. wd=wd;
+    private WebDriver wd;
+    public GroupHelper (WebDriver wd){
+        this. wd = wd;
     }
 
     public GroupHelper() {

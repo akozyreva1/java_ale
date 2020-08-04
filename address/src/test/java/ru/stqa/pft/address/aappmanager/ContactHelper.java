@@ -1,13 +1,13 @@
 package ru.stqa.pft.address.aappmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebDriver;
 import ru.stqa.pft.address.module.GroupKontact;
 
 public class ContactHelper {
 
-    FirefoxDriver wd;
-    public ContactHelper (FirefoxDriver wd){
+    WebDriver wd;
+    public ContactHelper (WebDriver wd){
         this. wd=wd;
 
     }

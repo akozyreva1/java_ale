@@ -1,11 +1,12 @@
 package ru.stqa.pft.address.aappmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebDriver;
 
 public class KontatEdit {
-    FirefoxDriver wd;
-    public KontatEdit  (FirefoxDriver wd){
+    private WebDriver wd;
+    public KontatEdit  (WebDriver wd)
+    {
         this. wd=wd;
     }
 

@@ -8,4 +8,6 @@ depepdencies {
     implementation 'org.openqa.selenium:selenium-rc:1.0-20081010.060147'
     implementation 'org.hibernate:hibernate-core:5.4.18.Final'
     implementation 'org.openqa.selenium.grid:selenium-grid-remote-control:1.0.2'
+    implementation 'org.seleniumhq.selenium:selenium-remote-driver:4.0.0-alpha-6'
+    implementation 'org.seleniumhq.selenium:selenium-server:4.0.0-alpha-2'
 }
